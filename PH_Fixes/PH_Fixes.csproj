@@ -76,6 +76,14 @@
       <Project>{4A5F3CC9-CF35-4374-8E08-5B5D488DAC2A}</Project>
       <Name>PH_Fixes_ProjectHighHeel</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PH_Fixes_PHSAddon\PH_Fixes_PHSAddon.csproj">
+      <Project>{7C1DF865-72BA-4A30-861F-30AFFA32539C}</Project>
+      <Name>PH_Fixes_PHSAddon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PH_Fixes_ShortcutsPHS\PH_Fixes_ShortcutsPHS.csproj">
+      <Project>{3FF605A0-149E-433D-AE22-EFF4A93175F9}</Project>
+      <Name>PH_Fixes_ShortcutsPHS</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
