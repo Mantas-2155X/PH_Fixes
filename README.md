@@ -26,9 +26,9 @@ If you don't have a plugin installed for which there is a fix, that fix .dll wil
 * Fixed a spamming error. **NOTES: 1**  
 
 **Notes**  
-0. Test period:  
+1. Test period:  
 * Currently this plugin is in its test period, that means there might be issues, which I need you to report if you get them. Make an issue here or contact me on discord 2155X#2917.  
-1. ProjectHighHeel:  
+2. ProjectHighHeel:  
 * The current 'errorfix' is disabling the execution of locking the camera in place when in the PHH UI. If you drag the window, the camera view will move as well. This is only a temporary workaround which I will improve later.  
 
 **To-do**  
