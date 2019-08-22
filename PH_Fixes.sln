@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PH_Fixes_HooahHome", "PH_Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PH_Fixes_ProjectHighHeel", "PH_Fixes_ProjectHighHeel\PH_Fixes_ProjectHighHeel.csproj", "{4A5F3CC9-CF35-4374-8E08-5B5D488DAC2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PH_Fixes_PHSAddon", "PH_Fixes_PHSAddon\PH_Fixes_PHSAddon.csproj", "{7C1DF865-72BA-4A30-861F-30AFFA32539C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PH_Fixes_ShortcutsPHS", "PH_Fixes_ShortcutsPHS\PH_Fixes_ShortcutsPHS.csproj", "{3FF605A0-149E-433D-AE22-EFF4A93175F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -43,5 +47,13 @@ Global
 		{4A5F3CC9-CF35-4374-8E08-5B5D488DAC2A}.Debug|x86.Build.0 = Debug|x86
 		{4A5F3CC9-CF35-4374-8E08-5B5D488DAC2A}.Release|x86.ActiveCfg = Release|x86
 		{4A5F3CC9-CF35-4374-8E08-5B5D488DAC2A}.Release|x86.Build.0 = Release|x86
+		{7C1DF865-72BA-4A30-861F-30AFFA32539C}.Debug|x86.ActiveCfg = Debug|x86
+		{7C1DF865-72BA-4A30-861F-30AFFA32539C}.Debug|x86.Build.0 = Debug|x86
+		{7C1DF865-72BA-4A30-861F-30AFFA32539C}.Release|x86.ActiveCfg = Release|x86
+		{7C1DF865-72BA-4A30-861F-30AFFA32539C}.Release|x86.Build.0 = Release|x86
+		{3FF605A0-149E-433D-AE22-EFF4A93175F9}.Debug|x86.ActiveCfg = Debug|x86
+		{3FF605A0-149E-433D-AE22-EFF4A93175F9}.Debug|x86.Build.0 = Debug|x86
+		{3FF605A0-149E-433D-AE22-EFF4A93175F9}.Release|x86.ActiveCfg = Release|x86
+		{3FF605A0-149E-433D-AE22-EFF4A93175F9}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
