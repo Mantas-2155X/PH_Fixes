@@ -23,7 +23,7 @@ If you don't have a plugin installed for which there is a fix, that fix .dll wil
 4. HooahHome  
 * Fixed random error on shutdown.  
 5. ProjectHighHeel  
-* Fixed a spamming error. **NOTES: 1**  
+* Fixed a spamming error. **NOTES: 2**  
 
 **Notes**  
 1. Test period:  
