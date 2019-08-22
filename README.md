@@ -24,6 +24,10 @@ If you don't have a plugin installed for which there is a fix, that fix .dll wil
 * Fixed random error on shutdown.  
 5. ProjectHighHeel  
 * Fixed a spamming error. **NOTES: 2**  
+6. ShortcutsPHS  
+* Fixed an error when a file is missing.  
+7. PHSAddon  
+* Fixed a spamming VMD error in the Studio.  
 
 **Notes**  
 1. Test period:  
