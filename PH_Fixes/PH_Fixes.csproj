@@ -1,1 +1,81 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{1FB23633-31D7-4D0D-B63C-FCC26FD19B9F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>PH_Fixes</RootNamespace>
+    <AssemblyName>PH_Fixes</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="PH_Fixes.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\games\PlayHome\PlayHome64bit_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\games\PlayHome\PlayHome64bit_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="HoneyPot">
+      <HintPath>..\..\..\games\PlayHome\Plugins\HoneyPot.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectHighHeel">
+      <HintPath>..\..\..\games\PlayHome\Plugins\ProjectHighHeel.dll</HintPath>
+    </Reference>
+    <Reference Include="DemonFusion">
+      <HintPath>..\..\..\games\PlayHome\Plugins\DemonFusion.dll</HintPath>
+    </Reference>
+    <Reference Include="HooahHome">
+      <HintPath>..\..\..\games\PlayHome\Plugins\HooahHome.dll</HintPath>
+    </Reference>
+    <Reference Include="IllusionPlugin">
+      <HintPath>..\..\..\games\PlayHome\[OPTIONAL STUFF]\IPA\Data\Managed\IllusionPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\games\PlayHome\Plugins\0Harmony.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PH_Fixes_DemonFusion\PH_Fixes_DemonFusion.csproj">
+      <Project>{6A8430E8-E4D7-431F-8627-D200730EF0E5}</Project>
+      <Name>PH_Fixes_DemonFusion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PH_Fixes_Game\PH_Fixes_Game.csproj">
+      <Project>{6112D65D-78E0-42E8-BAE1-EC4A3CEC5C0F}</Project>
+      <Name>PH_Fixes_Game</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PH_Fixes_HoneyPot\PH_Fixes_HoneyPot.csproj">
+      <Project>{2D3FBD5C-8810-440B-908F-008C372F2C47}</Project>
+      <Name>PH_Fixes_HoneyPot</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PH_Fixes_HooahHome\PH_Fixes_HooahHome.csproj">
+      <Project>{9C83BEF5-42B2-4E25-93FB-AB50C40D231D}</Project>
+      <Name>PH_Fixes_HooahHome</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PH_Fixes_ProjectHighHeel\PH_Fixes_ProjectHighHeel.csproj">
+      <Project>{4A5F3CC9-CF35-4374-8E08-5B5D488DAC2A}</Project>
+      <Name>PH_Fixes_ProjectHighHeel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
