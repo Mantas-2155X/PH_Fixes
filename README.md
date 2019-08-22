@@ -13,7 +13,7 @@ Overwrite the already existing files, remove any if stated in the update notes.
 If you don't have a plugin installed for which there is a fix, that fix .dll will get skipped and will not create errors.  
 
 **Available Fixes**  
-1. DemonFusion.dll  
+1. DemonFusion  
 * Fixes an error on scene change.  
 2. Main game  
 * Much faster time from starting the .exe to the title scene.  
